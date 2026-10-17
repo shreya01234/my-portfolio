@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { 
   Mail, Phone, MapPin, Code2, Sparkles, 
-  Terminal, Award, GraduationCap, ChevronRight, Copy, Check, ExternalLink, X, ArrowUpRight, Palette, Layout 
+  Terminal, Award, GraduationCap, ChevronRight, Copy, Check, ExternalLink, X, ArrowUpRight, Palette, Layout
 } from "lucide-react";
 
 export default function App() {
@@ -40,7 +40,7 @@ export default function App() {
         "Engineered smooth mobile responsiveness and cross-browser compatibility across all breakpoints.",
         "Integrated secure backend REST APIs and optimized asset delivery to cut page load times by 20%."
       ],
-      liveUrl: "https://linkedin.com/in/shreya-sharma-37b170420"
+      liveUrl: "https://github.com/shreya01234/my-portfolio"
     },
     {
       id: "ecommerce",
@@ -56,7 +56,7 @@ export default function App() {
         "Optimized UI rendering routines to reduce interaction latency by 15%, increasing checkout completion by 30%.",
         "Ensured consistent styling and code maintainability by writing clean, well-documented JavaScript modules."
       ],
-      liveUrl: "https://linkedin.com/in/shreya-sharma-37b170420"
+      liveUrl: "https://github.com/shreya01234/my-portfolio"
     }
   ];
 
@@ -114,6 +114,19 @@ export default function App() {
               </div>
             )}
           </div>
+
+          {/* GitHub Button */}
+          <a
+            href="https://github.com/shreya01234/my-portfolio"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-zinc-900/90 border border-zinc-800 text-zinc-200 font-semibold text-sm hover:border-cyan-500/50 hover:text-cyan-400 transition-all duration-300 backdrop-blur-md"
+          >
+            <svg className="w-4 h-4 fill-current text-cyan-400" viewBox="0 0 24 24">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+            GitHub
+          </a>
 
           {/* LinkedIn Button */}
           <a
@@ -308,6 +321,17 @@ export default function App() {
         <section className="relative p-10 rounded-3xl bg-gradient-to-br from-zinc-900 via-zinc-900/90 to-black border border-zinc-800 text-center overflow-hidden">
           <h2 className="text-3xl font-bold text-white mb-3">Let’s Build Something Amazing</h2>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-zinc-300 pt-4">
+            <a 
+              href="https://github.com/shreya01234/my-portfolio" 
+              target="_blank" 
+              rel="noreferrer" 
+              className="flex items-center gap-2 hover:text-cyan-400 transition"
+            >
+              <svg className="w-4 h-4 fill-current text-cyan-400" viewBox="0 0 24 24">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              <span>github.com/shreya01234/my-portfolio</span>
+            </a>
             <div className="flex items-center gap-2">
               <Mail size={16} className="text-cyan-400" />
               <span>shreya.punam.sharma@gmail.com</span>
@@ -389,7 +413,7 @@ export default function App() {
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-cyan-500 text-black font-semibold text-xs hover:bg-cyan-400 transition"
               >
-                <ExternalLink size={16} /> Live Demo
+                <ExternalLink size={16} /> View Code / Project
               </a>
             </div>
 
